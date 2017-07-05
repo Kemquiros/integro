@@ -9,8 +9,10 @@
 	<div class="inner-container uncode-blog clearfix">
     <div class="col-sm-8 blog-main">
       <?php include 'menu2.php';?>
+			<!-- Hacker Rank Challenge -->
+			<?php include 'challenge.php';?>
 			<?php
-			if ( have_posts() ) : while ( have_posts() ) : the_post();      
+			if ( have_posts() ) : while ( have_posts() ) : the_post();
 				get_template_part( 'content', get_post_format() );
 
 			endwhile; endif;

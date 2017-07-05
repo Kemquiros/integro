@@ -1,6 +1,8 @@
+<html>
 <?php get_header(); ?>
+<div id="page">
 <?php include 'menu2.php';?>
-	<div class="row">
+	<div class="row" id="page-content">
 		<div class="col-sm-12">
 
 			<?php
@@ -13,5 +15,6 @@
 
 		</div> <!-- /.col -->
 	</div> <!-- /.row -->
-
+</div>
 <?php get_footer(); ?>
+</html>

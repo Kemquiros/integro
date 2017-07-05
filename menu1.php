@@ -10,7 +10,7 @@
       if ( function_exists( 'the_custom_logo' ) ) {
         $custom_logo_id = get_theme_mod( 'custom_logo' );
         $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-        echo '<img id="logo" src="'. esc_url( $logo[0] ) .'">';        
+        echo '<a href="'. get_bloginfo( "wpurl" ).'"><img id="logo" src="'. esc_url( $logo[0] ) .'"></a>';
       }else{
         echo '<a class="navbar-brand nav-title" href="'. get_bloginfo( "wpurl" ).'"><'.get_bloginfo( "name" ) .'</a></div>';
       }
@@ -21,6 +21,7 @@
     </ul>
     <div class="collapse navbar-collapse" id="myNavbar">
       <div class="btn-group navbar-nav navbar-right">
+        
         <button type="button" class="btn navbar-btn btn-primary" data-toggle="modal" data-target="#perfilModal"><span class="glyphicon glyphicon-user" > Perfil</span></button>
         <button type="button" class="btn navbar-btn btn-primary" data-toggle="modal" data-target="#salirModal"><span class="glyphicon glyphicon-log-in"> Salir</span></button>
       </div>

@@ -8,6 +8,17 @@ Tags: bootstrap, CMS, PHP
 body { text-align: center; }
 #sidebar { border: 2px #a2a2a2 solid; float: right; }
 #footer { border: 2px #a2a2a2 solid; }
+#page{
+  background-image: url(assets/img/back.jpg);
+}
+#page-content{opacity: 0.8;}
+#machine{
+  width: 25vw;
+  height: 20vh;
+}
+#machine:hover{
+  cursor:pointer;
+}
 header {
     min-height: auto;
     height: 100vh;
@@ -47,6 +58,13 @@ header:hover{
   letter-spacing: 5px;
   word-spacing: 10px;
   text-shadow: 6px 3px #df691a;
+  transition: color 0.5s,text-shadow 0.5s ease-out;
+  transition-delay: 0.2s;
+}
+.header-title:hover{
+  text-shadow: 6px 3px #fff;
+  color: #df691a;
+  transition: color 0.5s,text-shadow 0.5s ease-out;
 }
 .header-description{
   font-size: 7vh;
@@ -103,7 +121,7 @@ header:hover{
     position: relative;
     display: inline-block;
     padding: 10px;
-    font-weight: 500;
+    font-size: initial;
 }
 .navbar-btn {
     margin-top:10px;

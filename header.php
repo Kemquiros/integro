@@ -1,6 +1,6 @@
 <head>
   <!--
-  27/Junio/2017
+  29/Junio/2017
   Autor: John Tapias Zarrazola
   Licencia: MIT
 -->
@@ -22,4 +22,5 @@
 
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <link rel="icon"  href="<?php bloginfo('ico_url'); ?>">
+<script type="text/javascript" src="<?php echo get_template_directory_uri().'/assets/js/functions.js'?>"></script>
 </head>
