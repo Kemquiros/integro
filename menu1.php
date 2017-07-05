@@ -21,7 +21,7 @@
     </ul>
     <div class="collapse navbar-collapse" id="myNavbar">
       <div class="btn-group navbar-nav navbar-right">
-        
+
         <button type="button" class="btn navbar-btn btn-primary" data-toggle="modal" data-target="#perfilModal"><span class="glyphicon glyphicon-user" > Perfil</span></button>
         <button type="button" class="btn navbar-btn btn-primary" data-toggle="modal" data-target="#salirModal"><span class="glyphicon glyphicon-log-in"> Salir</span></button>
       </div>

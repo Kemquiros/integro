@@ -2,9 +2,13 @@
 Autor: John Tapias Zarrazola
 Fecha: 05/07/2017
 Licencia: MIT
-Descripcion: 
+Descripcion:
     Programming Challenge
-*/ 
+*/
+
+Contenido:
+*cube.php es el código para resolver el reto en la plataforma.
+*2cube.php es el mismo código con modificaciones para recibir y enviar datos por AJAX.
 
 URL: https://www.hackerrank.com/challenges/cube-summation
 Dificultad: hard
@@ -38,9 +42,7 @@ Era más prueba de concepto que otra cosa.
 
 Respecto a las estructuras de datos:
 Inicialmente resolví el problema usando el lenguaje de programación Java, pero las estructuras de datos, aunque eficientes, no eran eficaces, ya que la información quedaba redundante, a pesar de que eran HashMap.
-En PHP toda estructura de datos implementa ARRAY(HashMap, Tree,Set List, etc), eso es bueno hasta cierto punto, tiene limitación respecto a 
+En PHP toda estructura de datos implementa ARRAY(HashMap, Tree,Set List, etc), eso es bueno hasta cierto punto, tiene limitación respecto a
 que las Key sólo pueden ser datos primitivos tales como int o string. Si PHP permitiese Keys tipo Object, el problema se resuelve el pocas líneas de código.
 
 Conclusión: NO complicarse, si una solución es simple y funciona, esa es.
-
-

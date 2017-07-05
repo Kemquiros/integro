@@ -2,10 +2,10 @@
 Theme Name: Integro
 Author: John Tapias Zarrazola
 Description: Prueba técnica para Integ.ro
-Version: 0.0.1
-Tags: bootstrap, CMS, PHP
+Version: 1.0.0
+Tags: Bootstrap, CMS, PHP, JQuery
 */
-body { text-align: center; }
+
 #sidebar { border: 2px #a2a2a2 solid; float: right; }
 #footer { border: 2px #a2a2a2 solid; }
 #page{
@@ -19,6 +19,13 @@ body { text-align: center; }
 #machine:hover{
   cursor:pointer;
 }
+#github{
+  width: 80px;
+}
+#logo{
+  width: 100px;
+}
+body { text-align: center; }
 header {
     min-height: auto;
     height: 100vh;
@@ -110,12 +117,7 @@ header:hover{
     padding: 15px;
     height: 20vh;
 }
-#github{
-  width: 80px;
-}
-#logo{
-  width: 100px;
-}
+
 
 .menu-paginas-container li{
     position: relative;
