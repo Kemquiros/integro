@@ -48,48 +48,7 @@ Github
 PHP7
 
 ###Árbol de archivos:
-.
-├── assets
-│   ├── css
-│   ├── img
-│   │   ├── avatar1.png
-│   │   ├── avatar2.png
-│   │   ├── avatar3.png
-│   │   ├── avatar.png
-│   │   ├── back.jpg
-│   │   ├── banner.jpg
-│   │   ├── github.png
-│   │   ├── icono.png
-│   │   ├── logo.png
-│   │   └── machine.png
-│   ├── js
-│   │   └── functions.js
-│   └── screenshot
-│       ├── 1.png
-│       ├── 2.png
-│       ├── 3.png
-│       ├── 4.png
-│       ├── 5.png
-│       ├── 6.png
-│       └── 7.png
-├── banner.php
-├── challenge.php
-├── content.php
-├── footer.php
-├── functions.php
-├── hacker_rank
-│   ├── 2cube.php
-│   ├── cube.php
-│   └── REAME.md
-├── header.php
-├── index.php
-├── menu1.php
-├── menu2.php
-├── page.php
-├── README.md
-├── screenshot.png
-├── sidebar.php
-└── style.css
+![alt text](https://raw.githubusercontent.com/kemquiros/integro/master/assets/screenshot/tree.png)
 
 #Imágenes
 
