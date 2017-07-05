@@ -1,5 +1,4 @@
-# Integro
-## Wordpress Theme
+# Integro Wordpress Theme
 
 ## Configuración
 ```
@@ -25,34 +24,30 @@ sudo apt-get install php-mysql
 ```
 
 ### Datos que respectan a la base de datos
--Database:
-wordpress
--User:
-wordpressuser
--Password:
-pass
+| Database | User | Password|
+|     :---:      |     :---:      |     :---:      |
+|wordpress| wordpressuser     | pass   |
+
+
 
 ### Datos que respectan a wordpress
--User:
-admin
--Password:
-adminpass
+|     User      |     Password     |
+|     :---:      |     :---:      |
+|     admin      |     adminpass      |
+
 
 ### Herramientas:
--JQuery:
-Ajax
--Bootstrap:
-Superhero
--Git:
-Github
-PHP7
+| JQuery | Bootstrap | Git|    Backend    |
+|     :---:      |     :---:      |     :---:      |
+|Ajax| Superhero     | Github   |     Apache-PHP7     |
+
 
 ### Árbol de archivos:
 ![alt text](https://raw.githubusercontent.com/kemquiros/integro/master/assets/screenshot/tree.png)
 
 # Imágenes
 
-##Landing Page dinámica
+## Landing Page dinámica
 ![alt text](https://raw.githubusercontent.com/kemquiros/integro/master/assets/screenshot/1.png)
 ## Navbar con modals
 ![alt text](https://raw.githubusercontent.com/kemquiros/integro/master/assets/screenshot/2.png)
