@@ -7,7 +7,7 @@ CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 '''
 
 ###Worpress 4.8:
-En https://wordpress.org/latest.tar.gz
+En [link]:https://wordpress.org/latest.tar.gz
 
 ###Apache2:
 '''
