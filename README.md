@@ -38,7 +38,7 @@ sudo apt-get install php-mysql
 
 ### Herramientas:
 | JQuery | Bootstrap | Git|    Backend    |
-|     :---:      |     :---:      |     :---:      |
+|     :---:      |     :---:      |     :---:      |     :---:      |
 |Ajax| Superhero     | Github   |     Apache-PHP7     |
 
 
